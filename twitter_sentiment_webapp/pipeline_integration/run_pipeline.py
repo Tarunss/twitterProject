@@ -1,4 +1,4 @@
-from src.extract.twitter_extractor import TwitterExtractor
+from twitter_sentiment_webapp.src.extract.bluesky_extractor import TwitterExtractor
 from src.transform.sentiment_analyzer import SentimentAnalyzer
 from src.load.postgres_loader import PostgresLoader
 from django.conf import settings
